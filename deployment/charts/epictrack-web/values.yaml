@@ -1,6 +1,6 @@
 app:
   name: epictrack
-  url: epictrack-web-{{ .Release.Namespace }}.apps.gold.devops.gov.bc.ca
+  url: https://epictrack-web-{{ .Release.Namespace }}.apps.gold.devops.gov.bc.ca
   api: https://epictrack-api-{{ .Release.Namespace }}.apps.gold.devops.gov.bc.ca
   env: dev
 resources:
